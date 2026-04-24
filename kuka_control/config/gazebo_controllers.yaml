@@ -126,7 +126,7 @@
       - lbr_A6
       - lbr_A7
     delta_tau_max: 1.0 # Nm
-    effort_shutdown_threshold: 100.0 # Nm (simulation-friendly; real hardware should use 10.0)
+    effort_shutdown_threshold: 500.0 # Nm (simulation-friendly; real hardware should use 10.0)
     stiffness:  # w.r.t. compliance_ref_link coordinates -> can be changed at runtime
         trans_x: 1000.0
         trans_y: 1000.0
@@ -193,7 +193,7 @@
       - lbr_A5
       - lbr_A6
       - lbr_A7
-    effort_shutdown_threshold: 100.0 # Nm (simulation-friendly; real hardware should use 10.0)
+    effort_shutdown_threshold: 500.0 # Nm (simulation-friendly; real hardware should use 10.0)
 
 /**/kuka_clik_controller:
   ros__parameters:
