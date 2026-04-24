@@ -125,7 +125,7 @@
       - lbr_A5
       - lbr_A6
       - lbr_A7
-    delta_tau_max: 50.0 # Nm (raised from 1.0 for Gazebo simulation; hardware keeps the default via controllers.yaml)
+    delta_tau_max: 1.0 # Nm
     stiffness:  # w.r.t. compliance_ref_link coordinates -> can be changed at runtime
         trans_x: 1000.0
         trans_y: 1000.0
